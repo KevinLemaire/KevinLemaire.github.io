@@ -163,18 +163,18 @@ section:last-child {
 		display: none;
 	}
 
-	#name, #contactDetails {
+	#nom, #contactDetails {
 		float: none;
 		width: 100%;
 		text-align: center;
 	}
 
-	.sectionTitle, .sectionContent {
+	.sectionTitre, .sectionContent {
 		float: none;
 		width: 100%;
 	}
 
-	.sectionTitle {
+	.sectionTitre {
 		margin-left: -2px;
 		font-size: 1.25em;
 	}
