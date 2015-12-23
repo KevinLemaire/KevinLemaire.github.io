@@ -24,7 +24,7 @@ p {
 
 #cv {
 	width: 90%;
-	max-width: 800px;
+	max-width: 900px;
 	background: #f3f3f3;
 	margin: 30px auto;
 }
@@ -61,8 +61,8 @@ p {
 #photo img {
 	width: 100%;
 	height: auto;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
 }
 
 #nom {
@@ -112,15 +112,35 @@ section:last-child {
 	padding: 20px 0 10px;
 }
 
-.sectionTitre {
-	float: left;
-	width: 25%;
+.colonneDroite{
+	float: right;
+	width: 32.5%;
 }
 
-.sectionContent {
-	float: right;
-	width: 72.5%;
+.colonneGauche{
+	/*float: left;*/
+	width: 60%;
+	display: inline-block;
 }
+
+.sectionCompetences h1 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+	color: #003366;
+	padding: 20px 0 0;
+}
+
+.sectionCompetences h2 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	margin-bottom: -2px;
+}
+
+/*.sectionContent {
+	float: left;
+	width: 62.5%;
+}*/
 
 .sectionTitre h1 {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
@@ -135,13 +155,19 @@ section:last-child {
 	margin-bottom: -2px;
 }
 
+.sectionTitre h2 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	margin-bottom: -2px;
+}
+
 .subDetails {
 	font-size: 0.8em;
 	font-style: italic;
 	margin-bottom: 3px;
 }
 
-.sectionContent ul {
+.sectionTitre ul {
   list-style-type: none;
 	font-size: 0.9em;
 	margin-top: 2px;
